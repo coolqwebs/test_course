@@ -1,0 +1,7 @@
+export const promises = {
+  writeFile: vi.fn((path, data) => {
+    return new Promise((res, rej) => {
+      res();
+    });
+  }),
+};
